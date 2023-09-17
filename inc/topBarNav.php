@@ -1,5 +1,5 @@
 
-      <nav class="navbar navbar-expand-lg navbar-dark bg-navy">
+<nav class="navbar navbar-expand-lg navbar-dark bg-navy">
             <div class="container-fluid px-4 px-lg-2 ">
                 <button class="navbar-toggler btn btn-sm" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <a class="navbar-brand" href="./">
@@ -59,19 +59,21 @@
   text-align: center;
   cursor: pointer;
   outline: none;
-  color: #fff;
-  background-color: #4CAF50;
+  color: black;
+  background-color:white;
   border: none;
-  border-radius: 10px;
-  box-shadow: 0 1px #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 0 5px balack ;
+  
 }
 
-.button:hover {background-color: #3e8e41}
+
+.button:hover {background-color: white}
 
 .button:active {
   background-color: #00FF00;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+  box-shadow: 0 10px #666;
+  transform: translateY(8px);
 }
 </style>
 
