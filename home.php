@@ -125,10 +125,11 @@ $brands = isset($_GET['b']) ? json_decode(urldecode($_GET['b'])) : array();
 <section class="py-0">
 <style>
 body {
-    background-image: url('img_amits.jpg');
+    background-image: url('img_as1.gif');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
+  
   
 }
 </style>
@@ -144,7 +145,8 @@ body {
             <ul class="list-group">
                 <a href="" class="list-group-item list-group-item-action">
                     
-                    <div class="icheck-primary d-inline">
+                    
+                    <div class=" icheck-primary d-inline">
                         <input type="checkbox" id="brandAll" >
                         <label for="brandAll">
                              All
@@ -155,7 +157,8 @@ body {
                 $qry = $conn->query("SELECT * FROM brands where status =1 order by name asc");
                 while($row=$qry->fetch_assoc()):
                 ?>
-                <li class="list-group-item list-group-item-action">
+                
+                <li class="btn btn-primary btn-rounded list-group-item list-group-item-action">
                     <div class="icheck-navy d-inline">
                         <input type="checkbox" id="brand-item-<?php echo $row['id'] ?>" <?php echo in_array($row['id'],$brands) ? "checked" : "" ?> class="brand-item" value="<?php echo $row['id'] ?>">
                         <label for="brand-item-<?php echo $row['id'] ?>">
@@ -174,13 +177,26 @@ body {
   
  
             </div>
-            
+            <style>
+          .carousel-inner {
+    border-radius: 40px;
+    background-color: rgba(0,0,0,0);
+    overflow: hidden;
+}
+}
+</style>
+     
             <div class="col-lg-10 py-1">
             <div class="row">
                 <div class="col-md-12">
-                <div id="tourCarousel"  class="carousel slide" data-ride="carousel" data-interval="550">
+                <div id="tourCarousel"  class="carousel slide" data-ride="carousel" data-interval="2000">
                     <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
                         <div class="carousel-inner">
+                        <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
                             <?php 
                                 $upload_path = "uploads/banner";
                                 if(is_dir(base_app.$upload_path)): 
@@ -210,8 +226,7 @@ body {
                         </div>
                 </div>
             </div>
-            <div class= "container px-4 px-lg-5 mt-5">
-            
+            <div class="container px-4 px-lg-5 mt-5">
                 <div class="row gx-4 gx-lg-4 row-cols-md-3 row-cols-xl-4 ">
                     <?php 
                         $where = "";
