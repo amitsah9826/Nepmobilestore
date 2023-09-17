@@ -123,11 +123,24 @@ $brands = isset($_GET['b']) ? json_decode(urldecode($_GET['b'])) : array();
 ?>
 
 <section class="py-0">
+<style>
+body {
+    background-image: url('img_amits.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  
+}
+</style>
     <div class="container-fluid">
     <div class="row">
-    
-        <div class="col-lg-2 px-0 border-right text-sm position-sticky ">
+ 
+
+        <div class="col-lg-2 px-0 border- text-sm position-sticky ">
+        
+        
         <center><h4><b><div class="p-1 mb-2 bg-white text-navy">Brands</div></b></h4></center>
+        <marquee><a href="http://localhost/mobile_store/?b=%5B%221%22%5D"> <img src="img_ch.png" alt="Flowers in Chania" width="400" height="40"></a></marquee>
             <ul class="list-group">
                 <a href="" class="list-group-item list-group-item-action">
                     
@@ -152,12 +165,16 @@ $brands = isset($_GET['b']) ? json_decode(urldecode($_GET['b'])) : array();
                 </li>
                 <?php endwhile; ?>
             </ul>
-           
-            <a href="http://localhost/mobile_store/?p=view_product&id=1ff1de774005f8da13f42943881c655f"> <center> <img src="img_chani.gif" alt="Flowers in Chania" width="250" height="250"></center></a>
-            <center><h5>Buy Now</h5></center>
-            <marquee><a href="http://localhost/mobile_store/?b=%5B%221%22%5D"> <img src="img_ch.jpg" alt="Flowers in Chania" width="500" height="50"></a></marquee>
             
+           
+            <marquee direction = "up"> <a href="https://i.ibb.co/bWYwnwW/4-copy.jpg"> <center> <img src="img_carr.png" alt="Flowers in Chania" width="190" height="250"></center></a></marquee>
+           
+            
+            <center> <img src="img_cc.png" alt="Flowers in Chania" width="200" height="45"></center>
+  
+ 
             </div>
+            
             <div class="col-lg-10 py-1">
             <div class="row">
                 <div class="col-md-12">
@@ -248,7 +265,7 @@ $brands = isset($_GET['b']) ? json_decode(urldecode($_GET['b'])) : array();
     </div>
     
 </section>
-<marquee class="blink" opacity="20" scrollamount="10" width="100%" direction="right" height="125px"><a href="http://localhost/mobile_store/?p=view_product&id=c81e728d9d4c2f636f067f89cc14862c"><img src="img_girll.jpg" alt="Girl in a jacket" width="300" height="100" alt="HTML tutorial"></a></marquee>
+<marquee direction = "up"> <center><a href="http://localhost/mobile_store/?p=view_product&id=c81e728d9d4c2f636f067f89cc14862c"><img src="img_girll.png" alt="Girl in a jacket" width="300" height="100" alt="HTML tutorial"></a></center></marquee>
 <script>
     function _filter(){
         var brands = []
@@ -291,4 +308,3 @@ $brands = isset($_GET['b']) ? json_decode(urldecode($_GET['b'])) : array();
     
 </script>
 
- 

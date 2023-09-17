@@ -145,11 +145,20 @@ elseif(isset($_GET['s'])){
     </div>
 </header>
 <!-- Section-->
+<style>
+body {
+    background-image: url('img_ama1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  
+}
+</style>
 <section class="py-4">
     <div class="container px-4 px-lg-5 mt-5">
         <div class="row gx-2 gx-lg-5 row-cols-1 row-cols-md-2 row-cols-xl-1 justify-content-center">
         <a href="http://localhost/mobile_store/?p=view_product&id=1ff1de774005f8da13f42943881c655f"> <center> <img src="img_chani.gif" alt="Flowers in Chania" width="250" height="250"></center></a>
-        <marquee><a href="http://localhost/mobile_store/?b=%5B%221%22%5D"> <img src="img_ch.jpg" alt="Flowers in Chania" width="500" height="50"></a></marquee>
+        <marquee><a href="http://localhost/mobile_store/?b=%5B%221%22%5D"> <img src="img_ch.png" alt="Flowers in Chania" width="500" height="50"></a></marquee>
               
             <?php 
                 $whereData = "";

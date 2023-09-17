@@ -145,6 +145,7 @@ elseif(isset($_GET['s'])){
 }
 ?>
 <!-- Header-->
+
 <header class="bg-dark py-5" id="main-header">
     <div class="container px-4 px-lg-5 my-5">
         <div class="text-center text-white">
@@ -155,6 +156,15 @@ elseif(isset($_GET['s'])){
 </header>
 
 <!-- Section-->
+<style>
+body {
+    background-image: url('img_amits.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  
+}
+</style>
 <section class="py-5">
     <div class="container-fluid row">
         <?php if(isset($_GET['c'])): ?>
@@ -171,7 +181,7 @@ elseif(isset($_GET['s'])){
             </div>
             
             <hr>
-            <a href="https://i.ibb.co/bWYwnwW/4-copy.jpg"> <center> <img src="img_chani.gif" alt="Flowers in Chania" width="250" height="300"></center></a>
+             <marquee direction = "up"> <a href="https://i.ibb.co/bWYwnwW/4-copy.jpg"> <center> <img src="img_carr.png" alt="Flowers in Chania" width="250" height="350"></center></a></marquee>
         </div>
         
         <?php endif; ?>
