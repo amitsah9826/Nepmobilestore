@@ -158,7 +158,7 @@ elseif(isset($_GET['s'])){
 <!-- Section-->
 <style>
 body {
-    background-image: url('img_amitsss.jpg');
+    background-image: url('img_amits1.gif');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -222,7 +222,7 @@ body {
                             }
                     ?>
                     <div class="col-md-12 mb-5">
-                        <a class="card product-item text-dark" href=".?p=view_product&id=<?php echo md5($row['id']) ?>">
+                        <a class=" card product-item text-dark" href=".?p=view_product&id=<?php echo md5($row['id']) ?>">
                             <!-- Product image-->
                             <img class="card-img-top w-100" src="<?php echo validate_image($img) ?>" loading="lazy" alt="..." />
                             <!-- Product details-->

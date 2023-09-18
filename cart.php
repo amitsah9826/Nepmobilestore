@@ -109,7 +109,18 @@ html,body{
   background: #DE463B;
 }
 </style>
+<style>
+body {
+    background-image: url('img_amits1.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  
+  
+}
+</style>
 <section class="py-5">
+    
     
     <div class="container">
         <div class="row">
@@ -173,6 +184,7 @@ html,body{
         </div>
     </div>
 </section>
+
 <script>
     function calc_total(){
         var total  = 0
@@ -294,4 +306,7 @@ html,body{
             _conf("Are you sure to remove the item in cart list?",'rem_item',[$(this).attr('data-id')])
         })
     })
+    
 </script>
+<marquee><a href="http://localhost/mobile_store/?b=%5B%221%22%5D"> <img src="img_ch.png" alt="Flowers in Chania" width="500" height="50"></a></marquee>
+              

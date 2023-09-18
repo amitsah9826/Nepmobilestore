@@ -109,6 +109,16 @@ html,body{
   background: #DE463B;
 }
 </style>
+<style>
+body {
+    background-image: url('img_amits1.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  
+  
+}
+</style>
 <script src="https://www.paypalobjects.com/api/checkout.js"></script>
 <?php 
 $total = 0;

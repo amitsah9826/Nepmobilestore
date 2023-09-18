@@ -29,8 +29,13 @@
                 <span class="info-box-text">Pending Orders</span>
                 <span class="info-box-number">
                   <?php 
-                    $pending = $conn->query("SELECT sum(id) as total FROM `orders` where status = '0' ")->fetch_assoc()['total'];
-                    echo number_format($pending);
+                  //  $pending = $conn->query("SELECT sum(id) as total FROM `orders` where status = '0' ")->fetch_assoc()['total'];
+                   //echo number_format($pending['quantity']);
+                   $sql="SELECT * FROM orders WHERE status=0";
+                   $res=mysqli_query($conn,$sql);
+                   $row=mysqli_num_rows($res);
+
+                   print_r($row);
                   ?>
                 </span>
               </div>

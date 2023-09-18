@@ -109,6 +109,16 @@ html,body{
   background: #DE463B;
 }
 </style>
+<style>
+body {
+    background-image: url('img_amits1.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  
+  
+}
+</style>
       <section class="py-5">
     <div class="container px-4 px-lg-5 my-5">
         <div class="card rounded-8">
