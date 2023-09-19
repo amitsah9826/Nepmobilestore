@@ -207,7 +207,7 @@ $total = 0;
 <body>
 
 <div class="col my-5">
-                        <h5 class="text-muted">Payment Method</h5>
+                       <center> <h5 class="text-muted">Payment Method</h5></center>
                             <div class="d-flex w-100 justify-content-between">
 
 <button class="button">Cash on Delivery</button>
@@ -216,7 +216,7 @@ $total = 0;
 </html>
 
                         
-                                                            <span id="paypal-button"></span>
+<a href="https://esewa.com.np/#/home"><img src="img_esewa.png" alt="Flowers in Chania" width="150" height="40"></a>
                             </div>
                         </div>
                     </div>
