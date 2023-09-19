@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -77,6 +78,15 @@ function topFunction() {
  }
 ?>
      <div class="card">
+     <style>
+.card {
+    background-image: url('img_as1.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  
+}
+</style>
                 <div class="card-body">
 <section class="py-4">
     <div class="container px-4 px-lg-1 my-1">
@@ -105,7 +115,7 @@ function topFunction() {
                 <div class="shadow-lg p-3 mb-5 bg-white rounded">
                 <h1 class="display-4 fw-bolder border-bottom border-primary pb-1"><?php echo $name ?></h1>
                 
-                
+    
               
                 <p class="m-0"><small>Brand: <?php echo $bname ?></small></p>
                 <div class="fs-3 mb-1">
@@ -123,6 +133,7 @@ function topFunction() {
                     
                 </div>
                 <span><small>Available Stock: <span id="avail"><?php echo $inv[0]['quantity'] ?></span></small></span>
+                
                 </div>
                 </div>
                 
@@ -303,6 +314,7 @@ html,body{
    </body>
 </html>
 </div>
+
 
                  
                                       

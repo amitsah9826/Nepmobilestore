@@ -169,16 +169,16 @@ $total = 0;
   position: relative;
   background-color: #04AA6D;
   border: none;
-  font-size: 20px;
+  font-size: 15px;
   color: #FFFFFF;
-  padding: 16px;
+  padding: 10px;
   font-family: 'Poppins', sans-serif;
-  width: 200px;
+  width: 150px;
   text-align: center;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   text-decoration: none;
-  border-radius: 15px;
+  border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
 }
@@ -193,7 +193,7 @@ $total = 0;
   margin-left: -20px!important;
   margin-top: -120%;
   opacity: 0;
-  transition: all 0.8s
+  transition: all 0.9s
 }
 
 .button:active:after {

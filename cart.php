@@ -125,7 +125,7 @@ body {
     <div class="container">
         <div class="row">
             <div class="col d-flex justify-content-end mb-2">
-                <button class="btn btn-outline-danger" type="button" id="empty_cart">Empty Cart</button>
+                <button class="btn-lg btn btn-outline-danger" type="button" id="empty_cart">Empty Cart</button>
             </div>
         </div>
         <div class="card rounded-0">
@@ -174,13 +174,13 @@ body {
                     </div>
                 <?php endwhile; ?>
                 <div class="d-flex w-100 justify-content-between mb-2 py-2 border-bottom">
-                    <div class="col-8 d-flex justify-content-end"><h4>Grand Total:</h4></div>
-                    <div class="col d-flex justify-content-end"><h4 id="grand-total">-</h4></div>
+                    <div class="col-8 d-flex justify-content-end"><b><h4>Grand Total:</h4></b></div>
+                <div class="br text-red  col d-flex justify-content-end"><h2 id="grand-total">-</h2></b></div>
                 </div>
             </div>
         </div>
         <div class="d-flex w-100 justify-content-end">
-            <a href="./?p=checkout" class="btn btn-outline-success">Checkout</a>
+            <a href="./?p=checkout" class="btn-lg btn btn-outline-success">Checkout</a>
         </div>
     </div>
 </section>
