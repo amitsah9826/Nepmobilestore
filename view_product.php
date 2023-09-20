@@ -120,7 +120,7 @@ function topFunction() {
                 <p class="m-0"><small>Brand: <?php echo $bname ?></small></p>
                 <div class="fs-3 mb-1">
                 <h2><p><b><FONT COLOR="#ff0000">  रू. <span id="price"><?php echo number_format($inv[0]['price']) ?></span></b></FONT>
-                <br>
+                
                 <form action="" id="add-cart">
                 <div class="d-flex">
                     <input type="hidden" name="price" value="<?php echo $inv[0]['price'] ?>">

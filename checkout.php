@@ -178,7 +178,7 @@ $total = 0;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   text-decoration: none;
-  border-radius: 20px;
+  border-radius: 15px;
   overflow: hidden;
   cursor: pointer;
 }
@@ -207,7 +207,8 @@ $total = 0;
 <body>
 
 <div class="col my-5">
-                       <center> <h5 class="text-muted">Payment Method</h5></center>
+                       <center><p><h5 class="text-muted">Payment Method</h5></p></center>
+                       <hr style="width:100%">
                             <div class="d-flex w-100 justify-content-between">
 
 <button class="button">Cash on Delivery</button>

@@ -170,12 +170,16 @@ body {
             </ul>
             
            
-            <marquee direction = "up"> <a href="https://i.ibb.co/bWYwnwW/4-copy.jpg"> <center> <img src="img_carr.png" alt="Flowers in Chania" width="190" height="250"></center></a></marquee>
+            <marquee direction = "up"> <a href="http://localhost/mobile_store/?p=view_product&id=33e75ff09dd601bbe69f351039152189"> <center> <img src="img_carr.png" alt="Flowers in Chania" width="190" height="250"></center></a></marquee>
            
             
             <center> <img src="img_cc.png" alt="Flowers in Chania" width="200" height="45"></center>
+            <hr style="width:100% ">
+                      
+             <center><p><h5 class="text-muted"> रू.999 Only</h5></p></center>
+                       
   
- 
+            <marquee> <a href="http://localhost/mobile_store/?p=view_product&id=6ea9ab1baa0efb9e19094440c317e21b"> <center> <img src="img_ad.png" alt="Flowers in Chania" width="400" height="250"></center></a></marquee>
             </div>
             <style>
           .carousel-inner {
@@ -185,6 +189,8 @@ body {
 }
 }
 </style>
+
+
      
             <div class="col-lg-10 py-1">
             <div class="row">
@@ -266,7 +272,16 @@ body {
                                     <?php endforeach; ?>
                                 </div>
                                 <p class="m-0"><small>Brand: <?php echo $row['bname'] ?></small></p>
+                                <button class="btn btn-warning flex-shrink-0" type="submit">
+                                    
+                       
+                        
+                        Buy Now
+                        
+                    </button>
+                    
                             </div>
+                            
                             
                         </a>
                         
@@ -322,4 +337,16 @@ body {
     })
     
 </script>
-
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/650aadf50f2b18434fd98544/1haorf2go';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
