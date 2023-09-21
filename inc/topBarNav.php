@@ -42,14 +42,30 @@
                         <li class="nav-item"><a class="nav-link text-white" href="./?p=view_categories">All Categories</a></li>
                         <?php endif; ?>
                         <li class="nav-item"><a class="nav-link text-white" href="./?p=about">About</a></li>
-                    </ul>
-                    <div class="d-flex align-items-center">
+                        
+                        
+                    </ul><div class="d-flex align-items-center">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img_sumits.png" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img_amitsah.png" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img_lable1.png" alt="Third slide">
+    </div>
+  </div>
+</div>
+                    
+                    
                       <?php if(!isset($_SESSION['userdata']['id'])): ?>
                         <!DOCTYPE html>
 
-
                         
                         <html>
+                          
                           
 <head>
 <style>
@@ -86,6 +102,7 @@ s.parentNode.insertBefore(hm, s);
 </script>
 </head>
 <body>
+  
 
 
 
