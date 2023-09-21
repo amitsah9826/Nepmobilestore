@@ -48,13 +48,13 @@
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="img_sumits.png" alt="First slide">
+      <img class="d-block w-100" src="img_first.png" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img_amitsah.png" alt="Second slide">
+      <img class="d-block w-100" src="img_secod.png" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img_lable1.png" alt="Third slide">
+      <img class="d-block w-100" src="img_third.png" alt="Third slide">
     </div>
   </div>
 </div>
@@ -114,7 +114,7 @@ s.parentNode.insertBefore(hm, s);
                         <a class="text-white mr-2 nav-link text-light" href="./?p=cart">
                             <i class="bi-cart-fill me-1"></i>
                             <img src="img_chania.png" alt="Flowers in Chania" width="25" height="25">
-                            <span class="badge bg-red text-white ms-1 rounded-pill" id="cart-count">
+                            <span class="badge bg-warning text-black ms-1 rounded-pill" id="cart-count">
                               <?php 
                               if(isset($_SESSION['userdata']['id'])):
                                 $count = $conn->query("SELECT SUM(quantity) as items from `cart` where client_id =".$_settings->userdata('id'))->fetch_assoc()['items'];
