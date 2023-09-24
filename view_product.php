@@ -28,7 +28,7 @@ body {
 </head>
 <body>
 
-<button type="button" class="btn btn-warning" onclick="topFunction()" id="myBta" title="Go to top">Top</button>
+<button type="button" class="btn btn-dark" onclick="topFunction()" id="myBta" title="Go to top">Top</button>
 
 
 <script>
@@ -87,6 +87,7 @@ function topFunction() {
   
 }
 </style>
+
                 <div class="card-body">
 <section class="py-4">
     <div class="container px-4 px-lg-1 my-1">
@@ -113,7 +114,7 @@ function topFunction() {
                 <!-- <div class="small mb-1">SKU: BST-498</div> -->
                 <div class="col-md-18 grid-margin stretch-card">
                 <div class="shadow-lg p-3 mb-5 bg-white rounded">
-                <h1 class="display-4 fw-bolder border-bottom border-primary pb-1"><?php echo $name ?></h1>
+                <h1 class="display-4 fw-bolder border-bottom border-white pb-1"><?php echo $name ?></h1>
                 
     
               
@@ -126,16 +127,65 @@ function topFunction() {
                     <input type="hidden" name="price" value="<?php echo $inv[0]['price'] ?>">
                     <input type="hidden" name="inventory_id" value="<?php echo $inv[0]['id'] ?>">
                     <input class="form-control text-center me-2" id="inputQuantity" type="num" value="1" style="max-width: 3rem" name="quantity" />
-                    <button class="btn btn-success flex-shrink-0" type="submit">
+                    <button class="btn btn-warning flex-shrink-0" type="submit">
                         <i class="bi-cart-fill me-1"></i>
                         Add to cart
                     </button>
                     
                 </div>
                 <span><small>Available Stock: <span id="avail"><?php echo $inv[0]['quantity'] ?></span></small></span>
-                
-                </div>
-                </div>
+                <hr style="width:100%">
+                <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  padding: 15px;
+  height: 70px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+<div class="column" style="background-color:white;">
+  <center><img class="mgz-hover-main" src="https://nagmani.com.np/media/single-page/free.png" alt="free" title="Free Shipping"></center>
+  <center> <h6>Free Shipping</h6></center>
+     </div>
+  <div class="column" style="background-color:white;">
+  
+  <center><img class="mgz-hover-main" src="https://nagmani.com.np/media/single-page/Warranty_Applicable_red.png" alt="Warranty_Applicable_red" title="Warranty Applicable"></center>
+
+  <center> <h6>Warranty Applicable</h6></center>
+   
+  </div>
+  <div class="column" style="background-color:white;">
+  <center><img class="mgz-hover-main" src="https://nagmani.com.np/media/Group_981.png" alt="Group_981" title="100% Genuine Products"></center>
+  <center> <h6>100% Genuine Products</h6></center>
+   
+  </div>
+  
+  
+</div></div>
+
+</body>
+</html>
+
+                        </div>
                 
                 </form>
                         </div>
@@ -285,7 +335,7 @@ html,body{
             <div class="tooltip">
                Github
             </div>
-            <a href="https://github.com/summernote/summernote/issues"> <span><i class="fab fa-github"></i></span></a>
+            <a href="https://github.com/amitsah9826/amitsah9826.git"> <span><i class="fab fa-github"></i></span></a>
          </div>
          <div class="icon youtube">
             <div class="tooltip">
@@ -314,9 +364,22 @@ html,body{
    </body>
 </html>
 </div>
-
-
-                 
+<hr style="width:95%">
+<div class="container">
+  <div class="row align-items-start">
+    <div class="col">
+   <b> Payment Methods:</b> <img class="mgz-hover-main" src="https://nagmani.com.np/media/Group_548.png" alt="Group_548" title>   <img class="mgz-hover-main" src="https://nagmani.com.np/media/payment-footer/Khalti.png" alt="Khalti" title>   <img class="mgz-hover-main" src="https://nagmani.com.np/media/esewa-logo-0001-01.png" alt="esewa-logo-0001-01" title>   <img class="mgz-hover-main" src="https://nagmani.com.np/media/connect-ips.png" alt="connect-ips" title>
+    </div>
+    
+    <div class="col">
+    <b> Banking Patners:</b>   <img class="mgz-hover-main" src="https://nagmani.com.np/media/footer/kumari_bank_logo.png" alt="kumari_bank_logo" width="130" title>   <img class="mgz-hover-main" src="https://nagmani.com.np/media/Group_554.png" alt="Group_554" title>     <img class="mgz-hover-main" src="https://nagmani.com.np/media/Group_419.png" alt="Group_419" title>
+    </div>
+  </div>
+  
+  </div>
+</div>
+    </div>
+        
                                       
                 
                 
@@ -406,9 +469,10 @@ function myFunction() {
                     </div>
                 </a>
             </div>
+            
             <?php endwhile; ?>
         </div>
-    </div>
+        
     </section>
 <script>
     var inv = $.parseJSON('<?php echo json_encode($inv) ?>');
@@ -460,5 +524,6 @@ function myFunction() {
             })
         })
     })
+    
 </script>
 </div>

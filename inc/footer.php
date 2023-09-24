@@ -61,7 +61,7 @@
 </script>
 <!-- Footer-->
 
-<footer class="py-2 bg-navy">
+<footer class="py-2 "<body style="background-color:#00008B;"">
             <div class="container">
               <p class="m-0 text-center text-white">Copyright &copy; <?php echo $_settings->info('short_name') ?> 2023</p>
               <p class="m-0 text-center text-white">Developed By: MAAB</p>

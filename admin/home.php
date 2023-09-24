@@ -76,6 +76,7 @@
         $files[]= validate_image('uploads/banner/'.$fname);
       }
   ?>
+  
  <div id="tourCarousel"  class="carousel slide" data-ride="carousel" data-interval="500">
       <div class="carousel-inner h-100">
           <?php foreach($files as $k => $img): ?>

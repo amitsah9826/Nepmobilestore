@@ -1,5 +1,5 @@
 
-      <nav class="navbar navbar-expand-lg navbar-dark bg-navy">
+      <nav class="navbar navbar-expand-lg echo "<body style="background-color:#00008B;">
             <div class="container-fluid px-4 px-lg-2 ">
                 <button class="navbar-toggler btn btn-sm" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <a class="navbar-brand" href="./">
@@ -43,9 +43,10 @@
                         <?php endif; ?>
                         <li class="nav-item"><a class="nav-link text-white" href="./?p=about">About</a></li>
                         
-                        
-                    </ul><div class="d-flex align-items-center">
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                                  </ul> <div class="d-flex align-items-center">
+                    <div id="carouselExampleSlidesOnly" class="" data-ride="carousel">
+                    
+                      
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="img_first.png" alt="First slide">
@@ -57,8 +58,7 @@
       <img class="d-block w-100" src="img_third.png" alt="Third slide">
     </div>
   </div>
-</div>
-                    
+</div>   
                     
                       <?php if(!isset($_SESSION['userdata']['id'])): ?>
                         <!DOCTYPE html>

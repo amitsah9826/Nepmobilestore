@@ -146,8 +146,8 @@ body {
                 <a href="" class="list-group-item list-group-item-action">
                     
                     
-                    <div class=" icheck-primary d-inline">
-                        <input type="checkbox" id="brandAll" >
+                <div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" role="switch" id="brandAll">
                         <label for="brandAll">
                              All
                         </label>
@@ -202,6 +202,10 @@ body {
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
   </ol>
                             <?php 
                                 $upload_path = "uploads/banner";
@@ -296,7 +300,21 @@ body {
     
 </section>
 <marquee direction = "up"> <center><a href="http://localhost/mobile_store/?p=view_product&id=c81e728d9d4c2f636f067f89cc14862c"><img src="img_girll.png" alt="Girl in a jacket" width="300" height="100" alt="HTML tutorial"></a></center></marquee>
-<script>
+<hr style="width:100%"><div class="container">
+  <div class="row align-items-start">
+    <div class="col">
+   <b> Payment Methods:</b> <img class="mgz-hover-main" src="https://nagmani.com.np/media/Group_548.png" alt="Group_548" title>   <img class="mgz-hover-main" src="https://nagmani.com.np/media/payment-footer/Khalti.png" alt="Khalti" title>   <img class="mgz-hover-main" src="https://nagmani.com.np/media/esewa-logo-0001-01.png" alt="esewa-logo-0001-01" title>   <img class="mgz-hover-main" src="https://nagmani.com.np/media/connect-ips.png" alt="connect-ips" title>
+    </div>
+    
+    <div class="col">
+    <b> Banking Patners:</b>   <img class="mgz-hover-main" src="https://nagmani.com.np/media/footer/kumari_bank_logo.png" alt="kumari_bank_logo" width="130" title>   <img class="mgz-hover-main" src="https://nagmani.com.np/media/Group_554.png" alt="Group_554" title>     <img class="mgz-hover-main" src="https://nagmani.com.np/media/Group_419.png" alt="Group_419" title>
+    </div>
+  </div>
+  
+  </div>
+</div>
+    </div>
+    <script>
     function _filter(){
         var brands = []
             $('.brand-item:checked').each(function(){
