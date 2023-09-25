@@ -147,7 +147,7 @@ elseif(isset($_GET['s'])){
 <!-- Section-->
 <style>
 body {
-    background-image: url('img_ama1.jpg');
+    background-image: url('img_ama11.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
